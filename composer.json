@@ -1,0 +1,19 @@
+{
+    "name": "webkul/filecache",
+    "description": "Store your daily used data in cache",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shubham Mehrotra",
+            "email": "shubhammehrotra.symfony@webkul.com"
+        }
+    ],
+    "require": {
+        "symfony/filesystem": "^2.0"
+    },
+    
+    "autoload": {
+        "psr-4": { "Webkul\\FileCache\\": "src" }
+    }
+}
